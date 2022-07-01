@@ -8,3 +8,9 @@
 - @react-three/drei
 - three
 - leva
+
+### TODO
+
+- [] eslint
+- [] prettier
+- [] husky
