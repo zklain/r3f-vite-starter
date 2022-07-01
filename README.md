@@ -12,5 +12,4 @@
 ### TODO
 
 - [] eslint
-- [] prettier
 - [] husky
