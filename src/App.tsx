@@ -1,4 +1,4 @@
-import { Box, OrbitControls } from '@react-three/drei'
+import { Box, Environment, OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import './App.css'
 
@@ -12,6 +12,7 @@ function App() {
         <Box args={[1, 1, 1]}>
           <meshStandardMaterial color="white" />
         </Box>
+        <Environment preset="forest" />
       </Canvas>
     </div>
   )
